@@ -1,0 +1,219 @@
+.containerEvent {
+  max-width: 1320px;
+  margin: auto;
+}
+.containerEvent .primary-heading {
+  margin: 0 0 40px 333px;
+  color: #333;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 75% */
+  text-transform: uppercase;
+}
+.containerEvent .carousel-container {
+  width: 100%; /* Set the overall width of the carousel */
+  margin: 0 auto;
+}
+.containerEvent .carousel-container .carousel-inner-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.containerEvent .carousel-container .carousel-card {
+  width: 321px;
+  height: 388px;
+  overflow: hidden;
+}
+.containerEvent .carousel-container .carousel-card:nth-child(2) {
+  width: 654px;
+  height: 388px;
+}
+.containerEvent .carousel-container .carousel-card:nth-child(2) p {
+  display: block;
+}
+.containerEvent .carousel-container .carousel-card:nth-child(2) img {
+  width: 100%;
+}
+.containerEvent .carousel-container .carousel-card img {
+  width: 321px;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 8px;
+  background: lightgray;
+}
+.containerEvent .carousel-container .carousel-card p {
+  display: none;
+  max-width: 639px;
+  color: #666;
+  font-family: Michroma;
+  margin-top: 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.containerEvent .button-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 48px 0 120px 333px;
+}
+.containerEvent .button-container .carousel-button {
+  display: flex;
+  width: 80px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 40px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.containerEvent .button-container .prev {
+  background-color: #fff;
+  color: #ccc;
+}
+.containerEvent .button-container .next {
+  color: #fff;
+  border-radius: 20px;
+  background: #184afb;
+}
+.containerEvent .Team {
+  max-width: 885px;
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 0 119px;
+}
+.containerEvent .Team-Container {
+  display: flex;
+  gap: 20px;
+  height: 21px;
+  align-items: center;
+}
+.containerEvent .Team-Icon {
+  width: 20px;
+  height: 20px;
+  background-color: #184afb;
+  border-radius: 20px;
+}
+.containerEvent .Team-Name {
+  color: #56585e;
+  font-family: Michroma;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.containerEvent .Team-Title {
+  max-width: 432px;
+  margin-right: 110px;
+  color: #2e3038;
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+.containerEvent .list .slick-track {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 162px;
+}
+.containerEvent .list .item {
+  max-width: 240px;
+  cursor: pointer;
+}
+.containerEvent .list .item img {
+  border-radius: 120px;
+  background: url(../../../assets//icon/Handsome.png), lightgray 50%/cover no-repeat;
+}
+.containerEvent .list .item .author {
+  margin-top: 14px;
+  border-left: 1px solid #ccc;
+  padding-left: 20px;
+}
+.containerEvent .list .item .author p:nth-child(1) {
+  color: #56585e;
+  font-family: Michroma;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: capitalize;
+}
+.containerEvent .list .item .author p:nth-child(2) {
+  color: #828388;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.containerEvent .partners {
+  margin-bottom: 120px;
+}
+.containerEvent .partners .title {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 0 119px;
+}
+.containerEvent .partners .title .icon {
+  display: flex;
+  gap: 20px;
+  height: 21px;
+  align-items: center;
+}
+.containerEvent .partners .title .icon span {
+  width: 20px;
+  height: 20px;
+  background-color: #184afb;
+  border-radius: 20px;
+}
+.containerEvent .partners .title .icon p {
+  color: #56585e;
+  font-family: Michroma;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+.containerEvent .partners .title h3 {
+  max-width: 727px;
+  margin-right: 110px;
+  color: #2e3038;
+  font-family: SF Pro Display;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+.containerEvent .partners .title .partnerText {
+  max-width: 363px;
+  margin-top: 22px;
+  margin-right: 69px;
+  color: #828388;
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.containerEvent .partners .partSlider {
+  display: flex;
+  max-width: 980px;
+  margin-left: auto;
+}
+.containerEvent .partners .partSlider div img {
+  padding: 50px 90px;
+  border-radius: 8px;
+  border: 1px dashed #ccc;
+}/*# sourceMappingURL=style.css.map */

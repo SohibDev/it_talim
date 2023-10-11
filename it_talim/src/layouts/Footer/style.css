@@ -1,0 +1,88 @@
+.container {
+  max-width: 1320px;
+  margin: auto;
+}
+.container .footer {
+  margin: 20px 0 100px;
+  display: flex;
+}
+.container .footer .footer-logo {
+  width: 210px;
+  height: 48px;
+}
+.container .footer .footer-content {
+  width: 75%;
+  margin-left: auto;
+}
+.container .footer .footer-content .footer-column {
+  margin-bottom: 60px;
+}
+.container .footer .footer-content .footer-column .list {
+  display: flex;
+  justify-content: space-between;
+}
+.container .footer .footer-content .footer-column .list li ul {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.container .footer .footer-content .footer-column .list li ul .footer-item {
+  color: var(--text-2, #56585e);
+  font-family: SF Pro Display;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.container .footer .footer-content .footer-column .list li .footer-second-ul {
+  margin-right: 120px;
+}
+.container .footer .footer-content .footer-column .list li .contact-info {
+  width: 432px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.container .footer .footer-content .footer-column .list li .contact-info .email-icon {
+  width: 24px;
+  height: 24px;
+}
+.container .footer .footer-content .footer-column .list li .contact-info .email {
+  color: #56585e;
+  font-family: Michroma;
+  margin-right: 80px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+.container .footer .footer-content .footer-column .list li .contact-info .phone-icon {
+  display: inline-flex;
+  padding: 10px;
+  align-items: flex-start;
+  gap: 10px;
+}
+.container .footer .footer-content .footer-bottom {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .footer .footer-content .footer-bottom .telegram-button {
+  color: #fff;
+  font-family: Michroma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  display: flex;
+  width: 321px;
+  height: 40px;
+  padding: 6px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 20px;
+  border: 1.6px solid #333;
+  background: #333;
+}/*# sourceMappingURL=style.css.map */

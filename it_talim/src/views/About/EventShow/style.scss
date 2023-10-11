@@ -1,0 +1,255 @@
+.containerEvent {
+  max-width: 1320px;
+  margin: auto;
+
+  .primary-heading {
+    margin: 0 0 40px 333px;
+    color: #333;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 75% */
+    text-transform: uppercase;
+  }
+  .carousel-container {
+    width: 100%; /* Set the overall width of the carousel */
+    margin: 0 auto;
+
+    .carousel-inner-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .carousel-card {
+      width: 321px;
+      height: 388px;
+      overflow: hidden;
+
+      &:nth-child(2) {
+        width: 654px;
+        height: 388px;
+      }
+
+      &:nth-child(2) p {
+        display: block;
+      }
+
+      &:nth-child(2) img {
+        width: 100%;
+      }
+
+      img {
+        width: 321px;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 8px;
+        background: lightgray;
+      }
+
+      p {
+        display: none;
+        max-width: 639px;
+        color: #666;
+        font-family: Michroma;
+        margin-top: 20px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .button-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 48px 0 120px 333px;
+    .carousel-button {
+      display: flex;
+      width: 80px;
+      height: 40px;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      font-size: 40px;
+      padding-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .prev {
+      background-color: #fff;
+      color: #ccc;
+    }
+    .next {
+      color: #fff;
+      border-radius: 20px;
+      background: #184afb;
+    }
+  }
+
+  hr {
+  }
+
+  .Team {
+    max-width: 885px;
+    display: flex;
+    justify-content: space-between;
+    margin: 28px 0 119px;
+    &-Container {
+      display: flex;
+      gap: 20px;
+      height: 21px;
+      align-items: center;
+    }
+
+    &-Icon {
+      width: 20px;
+      height: 20px;
+      background-color: #184afb;
+      border-radius: 20px;
+    }
+
+    &-Name {
+      color: #56585e;
+      font-family: Michroma;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      text-transform: capitalize;
+    }
+
+    &-Title {
+      max-width: 432px;
+      margin-right: 110px;
+      color: #2e3038;
+      font-family: SF Pro Display;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 52px;
+      text-transform: uppercase;
+    }
+  }
+
+  .list {
+
+    .slick-track {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 162px;
+    }
+
+    .item {
+      max-width: 240px;
+      cursor: pointer;
+
+      img {
+        border-radius: 120px;
+        background: url(../../../assets//icon/Handsome.png),
+          lightgray 50% / cover no-repeat;
+      }
+
+      .author {
+        margin-top: 14px;
+        border-left: 1px solid #ccc;
+        padding-left: 20px;
+
+        p:nth-child(1) {
+          color: #56585e;
+          font-family: Michroma;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 20px;
+          text-transform: capitalize;
+        }
+
+        p:nth-child(2) {
+          color: #828388;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          text-transform: capitalize;
+        }
+      }
+    }
+  }
+
+  .partners {
+    margin-bottom: 120px;
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+      margin: 28px 0 119px;
+
+      .icon {
+        display: flex;
+        gap: 20px;
+        height: 21px;
+        align-items: center;
+
+        span {
+          width: 20px;
+          height: 20px;
+          background-color: #184afb;
+          border-radius: 20px;
+        }
+
+        p {
+          color: #56585e;
+          font-family: Michroma;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 24px;
+          text-transform: capitalize;
+        }
+      }
+
+      h3 {
+        max-width: 727px;
+        margin-right: 110px;
+        color: #2e3038;
+        font-family: SF Pro Display;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 52px;
+        text-transform: uppercase;
+      }
+
+      .partnerText {
+        max-width: 363px;
+        margin-top: 22px;
+        margin-right: 69px;
+        color: #828388;
+        font-family: SF Pro Display;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+      }
+    }
+
+    .partSlider {
+      display: flex;
+      max-width: 980px;
+      margin-left: auto;
+
+      div {
+        img {
+          padding: 50px 90px;
+          border-radius: 8px;
+          border: 1px dashed #ccc;
+        }
+      }
+    }
+  }
+}
